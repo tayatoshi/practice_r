@@ -51,4 +51,4 @@ Rscript src/sample_simulation.R
 ```
 
 ## License
-This repository is under MIT License.
+This repository is under the MIT License.
