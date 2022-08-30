@@ -1,0 +1,8 @@
+.DS_Store
+.Rhistory
+.key
+.Rproj.user
+results/*.csv
+fig/*.png
+slide/slide.md
+slide/pic4slide
