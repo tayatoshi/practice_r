@@ -21,13 +21,13 @@ nsamples <- 120
 sigma_e <- 1
 alpha <- 1
 beta <- 2
-ntrials <- 1000
+iter <- 1000
 set.seed(1234)
 x <- runif(nsamples, -5, 5)
 
 simulation_results <-
-    data.frame(a = array(0, ntrials), b = array(0, ntrials))
-for (t in 1:ntrials) {
+    data.frame(a = array(0, iter), b = array(0, iter))
+for (t in 1:iter) {
     e <- rnorm(nsamples, 0, sigma_e)
     y <- alpha + x * beta + e
     results <- ls_est(x, y)
