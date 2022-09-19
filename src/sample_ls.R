@@ -112,4 +112,3 @@ ggsave(
   height = 3
 )
 p3
-
